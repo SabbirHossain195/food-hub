@@ -33,7 +33,7 @@ h1{
     padding-left: 10%;
 }
 .half-width img{
-    width: 70%;
+    width: 80%;
 }
 span{
     color: rgb(61, 172, 241);
@@ -41,7 +41,7 @@ span{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(aqua, blue);
-    padding: 10px 40px;
+    padding: 10px 20px;
     color: white;
     font-weight: 700;
     border-radius: 20px;
@@ -54,9 +54,36 @@ span{
     background-size: cover;
 }
 #about-division{
-    padding: 180px;
+    padding: 190px;
     padding-left: 1000px;
 }
-#about-h3{
-    font-size: 40px;
+.title-h2{
+    font-size: 35px;
+}
+#item-header{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 30px;
+}
+#food-list{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.food-item{
+    width: 25%;
+    margin-left: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+.food-item img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.item-name{
+    font-size: 25px;
 }
