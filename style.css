@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 section{
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 .header-division{
     display: flex;
@@ -45,4 +45,18 @@ span{
     color: white;
     font-weight: 700;
     border-radius: 20px;
+}
+.initial-paragraph{
+    padding-bottom: 40px;
+}
+#about-section{
+    background-image: url(images/image2.png);
+    background-size: cover;
+}
+#about-division{
+    padding: 180px;
+    padding-left: 1000px;
+}
+#about-h3{
+    font-size: 40px;
 }
