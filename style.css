@@ -13,11 +13,12 @@ section{
 }
 #header-section{
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(6, 106, 187);
+    color: white;
 }
 .header-link{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 600;
     padding-left: 30px;
     padding-top: 25px;
@@ -35,7 +36,7 @@ h1{
 .half-width img{
     width: 80%;
 }
-span{
+#stop{
     color: rgb(61, 172, 241);
 }
 .link-button{
@@ -139,4 +140,15 @@ input{
 #extra-facebook{
     padding-left: 230px;
     padding-right: 200px;
+}
+#finishing-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+.title-name{
+    color: aqua;
 }
